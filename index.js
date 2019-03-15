@@ -2,6 +2,7 @@
 // add solution here
 // important for all three functions: MAKE A NEW EMPTY ARRAY, then assign the loops to the NEW array by pushing the new string, THEN retun the updated array AFTER/OUTSIDE the loop, but WITHIN THE FUNCTION 
 
+// purpose: tell us what instruement each musician plays in the Beatles 
 function theBeatlesPlay(musicians, instruments) {
   var allMusicians = []; //empty array 
   for (var i=0; i < musicians.length; i++) {
